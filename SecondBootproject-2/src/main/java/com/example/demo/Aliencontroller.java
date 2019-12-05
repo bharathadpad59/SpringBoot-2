@@ -32,7 +32,7 @@ public class Aliencontroller {
 	@RequestMapping (value="/aliendataadd")
 	public String controllermethod(@RequestParam int id,@RequestParam String name)
 	{
-		
+		System.out.println("Rededited by me after cloning");
 		System.out.println(alien.getAid());
 		alien.getAname();
 		alien.getAtech();
